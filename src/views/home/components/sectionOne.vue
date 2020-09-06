@@ -12,7 +12,7 @@
           <p class="h5 text-white mb-5  font-weight-bold text-p">
             {{ $t("sectionOne.textp2") }}
           </p>
-          <a
+          <!--<a
             href="/"
             class="d-inline-flex flex-row align-items-center page-scroll mb-3 mb-md-0 btn-new"
           >
@@ -23,7 +23,7 @@
             class=" ml-2 d-inline-flex flex-row align-items-center btn-new"
           >
             <span class="iconfont"> &#xe65a; {{ $t("sectionOne.btn2") }}</span>
-          </a>
+          </a>-->
         </div>
       </div>
     </div>
