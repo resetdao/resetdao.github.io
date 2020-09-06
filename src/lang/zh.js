@@ -2,9 +2,9 @@ export default {
   navBar: {
     list: [
       { id: "home", title: "首页", ref: "" },
-      { id: "projects", title: "项目", ref: "" },
-      { id: "community", title: "社区", ref: "" },
-      { id: "Web3", title: "(连接钱包)", ref: "" }
+      { id: "projects", title: "项目", ref: "" }
+      // { id: "community", title: "社区", ref: "" },
+      // { id: "Web3", title: "(连接钱包)", ref: "" }
     ]
   },
   sectionOne: {

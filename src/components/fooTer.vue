@@ -10,29 +10,25 @@
           </p>
           <ul class="list-inline social social-sm social-rounded mt-4">
             <li class="list-inline-item">
-              <a href="https://github.com/resetdao"
+              <a href="https://github.com/resetdao" target="_blank"
                 ><i class="iconfont">&#xe677;</i></a
               >
             </li>
             <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe61c;</i></a>
+              <a href="https://twitter.com/resetdao" target="_blank"
+                ><i class="iconfont">&#xe60a;</i></a
+              >
             </li>
             <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe60a;</i></a>
+              <a href="https://discord.com/invite/xW9rAR" target="_blank"
+                ><i class="iconfont">&#xe675;</i></a
+              >
             </li>
-            <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe6a8;</i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe768;</i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe61c;</i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href=""><i class="iconfont">&#xe62e;</i></a>
+            <li class="list-inline-item" @click="isActive = !isActive">
+              <a><i class="iconfont">&#xe62e;</i></a>
             </li>
           </ul>
+          <img class="img-box" v-show="isActive" src="@/assets/weichat.png" />
         </div>
       </div>
       <div class="row mt-5">
@@ -46,20 +42,18 @@ export default {
   name: "fooTer",
   data() {
     return {
-      isActive: "gov",
-      lanIsActive: "EN",
-      navList: [
-        { id: "gov", title: " GOV", ref: "" },
-        { id: "projects", title: "PROJECTS", ref: "" },
-        { id: "community", title: "COMMUNITY", ref: "" },
-        { id: "Web3", title: "(Connect Web3)", ref: "" }
-      ]
+      isActive: false
     };
-  }
+  },
+  methods: {}
 };
 </script>
 <style lang="scss">
 .fooTer-warpper {
   padding: 5rem 0 5rem 0;
+  .img-box {
+    width: 165px;
+    height: 165px;
+  }
 }
 </style>

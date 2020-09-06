@@ -35,6 +35,9 @@ export default {
     color: #fb203b !important;
     padding-bottom: 2rem;
   }
+  .lead {
+    font-size: 1rem;
+  }
   .text-muted {
     padding-bottom: 1rem;
     color: #000000 !important;

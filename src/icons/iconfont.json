@@ -1,0 +1,100 @@
+{
+  "id": "2037764",
+  "name": "reset-dao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11992527",
+      "name": "discord",
+      "font_class": "discord",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "3876518",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "929532",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "970752",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "1277486",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1898790",
+      "name": "google-plus",
+      "font_class": "google-plus",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "3876057",
+      "name": "dribbble",
+      "font_class": "dribbble",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "7239557",
+      "name": "skype",
+      "font_class": "skype",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "7239850",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "9512540",
+      "name": "facebook",
+      "font_class": "facebook-fill",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8871245",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "10011603",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11690698",
+      "name": "文件",
+      "font_class": "ziyuan",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

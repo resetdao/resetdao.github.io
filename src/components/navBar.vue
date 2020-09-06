@@ -129,7 +129,7 @@ export default {
           "rgb(521, 32, 59, 1)";
       } else {
         document.getElementById("calay-navbar").style.background =
-          "rgb(521, 32, 59, 0.5)";
+          "rgb(521, 32, 59, 0.8)";
       }
       let display = document.getElementById("navbarCollapse").style.display;
       if (document.documentElement.clientWidth < 768 && display == "block") {
@@ -148,7 +148,7 @@ export default {
     background: rgb(521, 32, 59, 0.4);
     @media screen and (max-width: 768px) {
       .collapse {
-        background-color: rgb(521, 32, 59);
+        background-color: rgb(521, 32, 59, 0.8);
       }
       .lan-item {
         padding-left: 0px;

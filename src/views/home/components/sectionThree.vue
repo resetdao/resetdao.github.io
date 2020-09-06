@@ -22,7 +22,7 @@
           <div class="card card-warrper">
             <div class="card-body">
               <h2 class="card-title">{{ item.title }}</h2>
-              <img src="@/assets/nash_jpg.jpg" />
+              <img />
               <p class="card-text">{{ item.text }}</p>
               <div class="card-more">
                 <a>{{ $t("sectionThree.btn1") }}</a
@@ -81,6 +81,9 @@ export default {
       background-color: #e31d33;
       height: 148px;
       width: 100%;
+      background-image: url("../../../assets/nash_jpg.jpg");
+      background-size: cover;
+      background-position: center;
     }
     .card-text {
       font-size: 1rem;

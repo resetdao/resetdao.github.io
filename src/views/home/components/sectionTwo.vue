@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-10 mx-auto text-center">
           <h2 class="text-primary text-title">{{ $t("sectionTwo.title") }}</h2>
-          <p class="text-muted lead">{{ $t("sectionTwo.textp1") }}</p>
+          <p class="text-muted lead ">{{ $t("sectionTwo.textp1") }}</p>
           <p class="text-muted lead">{{ $t("sectionTwo.textp2") }}</p>
           <p class="text-muted lead">{{ $t("sectionTwo.textp3") }}</p>
         </div>
@@ -35,6 +35,9 @@ export default {
     font-weight: bold;
     color: #fb203b !important;
     padding-bottom: 2rem;
+  }
+  .lead {
+    font-size: 1rem;
   }
   .text-muted {
     text-align: left;

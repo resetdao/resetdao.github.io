@@ -2,13 +2,13 @@ export default {
   navBar: {
     list: [
       { id: "home", title: "HOME", ref: "" },
-      { id: "projects", title: "PROJECTS", ref: "" },
-      { id: "community", title: "COMMUNITY", ref: "" },
-      { id: "Web3", title: "(Connect Web3)", ref: "" }
+      { id: "projects", title: "PROJECTS", ref: "" }
+      // { id: "community", title: "COMMUNITY", ref: "" },
+      // { id: "Web3", title: "(Connect Web3)", ref: "" }
     ]
   },
   sectionOne: {
-    title: "resetDAO",
+    title: "ResetDAO",
     textp1: "DAOs' matrix/Aggregator",
     textp2: "All due to swarm intelligence",
     btn1: "cast a vote",

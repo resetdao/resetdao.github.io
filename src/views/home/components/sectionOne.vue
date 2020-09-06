@@ -9,7 +9,7 @@
           <p class="h5 text-white font-weight-bold text-p">
             {{ $t("sectionOne.textp1") }}
           </p>
-          <p class="h5 text-white mb-5  font-weight-bold text-p">
+          <p class="h5 text-white mb-5  font-weight-bold text-p typist">
             {{ $t("sectionOne.textp2") }}
           </p>
           <!--<a
@@ -63,6 +63,30 @@ export default {
     }
     .text-p {
       font-size: 2rem;
+    }
+    .typist {
+      &:after {
+        position: relative;
+        top: 7px;
+        display: inline-block;
+        height: 30px;
+        margin-left: 5px;
+        content: " ";
+        -webkit-animation: blink 0.5s step-end infinite alternate;
+        animation: blink 0.5s step-end infinite alternate;
+        border-right: 2px solid;
+      }
+    }
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
     @media (min-width: 768px) {
       .vh-md-100 {
