@@ -1,16 +1,19 @@
+// import logoSrc from '.'
+
 export default {
   navBar: {
     list: [
       { id: "home", title: "首页", ref: "" },
-      { id: "projects", title: "项目", ref: "" }
-      // { id: "community", title: "社区", ref: "" },
+      { id: "projects", title: "项目", ref: "" },
+      { id: "document", title: "文档", ref: "" },
+      { id: "community", title: "加入社区", ref: "https://t.me/ResetDAO  " },
       // { id: "Web3", title: "(连接钱包)", ref: "" }
     ]
   },
   sectionOne: {
     title: "ResetDAO",
     textp1: "DAOs 母体/聚合器",
-    textp2: "专注于优化群体治理，推动defi与DAO，一切归于群体智能",
+    textp2: "一切归于群体智能",
     btn1: "投票",
     btn2: "加入我们"
   },
@@ -24,7 +27,7 @@ export default {
       "以人为本的治理能力让 DAO 能灵活的变迁，可编程货币、社区资本、无头品牌、互信债券，一切皆有可能。"
   },
   sectionThree: {
-    title: "ResetDAO 项目",
+    title: "项目",
     text: "我们计划为早期 DAO 组织或商业提供帮助",
     btn1: "使用",
     btn2: "学习更多",
@@ -32,28 +35,28 @@ export default {
       {
         id: "0",
         title: "治理盒饭",
-        img: "@/assets/nash_jpg.jpg",
+        img: require('../assets/projects/gov-bento.png'),
         text:
           "聚合DEX DeFi 的治理代币挖矿，带流动池中聚合投票能力，并将其市场化获取更多收益"
       },
       {
         id: "2",
         title: "治理盒饭V2.0",
-        img: "",
+        img: require('../assets/projects/gov-bento-V2.0.png'),
         text:
           "引入MakaerDAO机制帮助 DAO 与 DeFi 衍生信用，并聚合更多的治理代币，帮助其扩展治理"
       },
       {
         id: "3",
         title: "DAS",
-        img: "",
+        img: require('../assets/projects/das.png'),
         text:
           "帮助DAO 与 DeFi 更好的实现治理，通过类似AMPL式弹性供应治理代币，实现治理激励"
       },
       {
         id: "4",
         title: "NASH Protocol",
-        img: "",
+        img: require('../assets/projects/nash.png'),
         text: "在区块链上运行隐藏策略下运行复杂的博弈游戏"
       }
     ]

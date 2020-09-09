@@ -2,8 +2,9 @@ export default {
   navBar: {
     list: [
       { id: "home", title: "HOME", ref: "" },
-      { id: "projects", title: "PROJECTS", ref: "" }
-      // { id: "community", title: "COMMUNITY", ref: "" },
+      { id: "projects", title: "PROJECTS", ref: "" },
+      { id: "document", title: "DOCUMENT", ref: "" },
+      { id: "community", title: "Join Our Community", ref: "https://t.me/ResetDAO  " },
       // { id: "Web3", title: "(Connect Web3)", ref: "" }
     ]
   },
@@ -24,7 +25,7 @@ export default {
       "People-oriented governance capabilities allow DAO to flexibly change, programmable currency, community capital, headless brands, mutual credit bonds, everything is possible."
   },
   sectionThree: {
-    title: "resetDAO Projects",
+    title: "Project",
     text: "We plan to fund and help early Dao organizations or businesses",
     btn1: "Play now",
     btn2: "Learn more",
@@ -32,28 +33,28 @@ export default {
       {
         id: "0",
         title: "gov bento",
-        img: "@/assets/nash_jpg.jpg",
+        img: require('../assets/projects/gov-bento.png'),
         text:
           "Support governance token mining of DEX and DeFi, aggregate voting power in the liquid pool, and market it to obtain more revenue"
       },
       {
         id: "2",
         title: "gov bento V2.0",
-        img: "",
+        img: require('../assets/projects/gov-bento-V2.0.png'),
         text:
           "Introduce the MakaerDAO to help DAO and DeFi derive credit, and aggregate more governance tokens to help expand governance"
       },
       {
         id: "3",
         title: "DAS",
-        img: "",
+        img: require('../assets/projects/das.png'),
         text:
           "Achieve governance incentives through flexible supply of governance tokens similar to AMPL. DAS will be a complete set of governance structure."
       },
       {
         id: "4",
         title: "NASH Protocol",
-        img: "",
+        img: require('../assets/projects/nash.png'),
         text: "Running complex games with hidden strategy on blockchain"
       }
     ]

@@ -26,7 +26,7 @@
               @click="changNav(item.id)"
               class="nav-link page-scroll"
               :class="{ active: item.id == isActive }"
-              :href="`#` + item.id"
+              :href="item.ref"
               >{{ item.title }}</a
             >
           </li>

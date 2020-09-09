@@ -22,12 +22,12 @@
           <div class="card card-warrper">
             <div class="card-body">
               <h2 class="card-title">{{ item.title }}</h2>
-              <img />
+              <img :src="item.img"/>
               <p class="card-text">{{ item.text }}</p>
-              <div class="card-more">
+              <!-- <div class="card-more">
                 <a>{{ $t("sectionThree.btn1") }}</a
                 ><a>{{ $t("sectionThree.btn2") }}</a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -71,17 +71,17 @@ export default {
   .card-warrper {
     background: none !important;
     border: none;
-    text-align: left;
+    text-align: center;
     .card-title {
       font-size: 1.5rem;
       color: #000;
     }
     img {
       display: block;
-      background-color: #e31d33;
+      // background-color: #e31d33;
       height: 148px;
       width: 100%;
-      background-image: url("../../../assets/nash_jpg.jpg");
+      // background-image: url("../../../assets/nash_jpg.jpg");
       background-size: cover;
       background-position: center;
     }
