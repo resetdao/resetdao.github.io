@@ -4,7 +4,11 @@ export default {
       { id: "home", title: "HOME", ref: "" },
       { id: "projects", title: "PROJECTS", ref: "" },
       { id: "document", title: "DOCUMENT", ref: "" },
-      { id: "community", title: "Join Our Community", ref: "https://t.me/ResetDAO  " },
+      {
+        id: "community",
+        title: "Join Our Community",
+        ref: "https://t.me/ResetDAO  "
+      }
       // { id: "Web3", title: "(Connect Web3)", ref: "" }
     ]
   },
@@ -18,7 +22,7 @@ export default {
   sectionTwo: {
     title: "Mission & Values",
     textp1:
-      "resetDAO is a decentralized autonomous organization born in the community, we optimize the governance of DAOs and DeFi, we develop, assist and incubate DAO products and protocols",
+      "ResetDAO is a decentralized autonomous organization born in the community, we optimize the governance of DAOs and DeFi, we develop, assist and incubate DAO products and protocols",
     textp2:
       "This is a cooperative in the cryptoworld. We reject the control of the center and unfair distribution，We call for the encrypted world to be people-oriented again，We support the decentralization of power and benefits. resetDAO  members will form an organization in the form of partners, and distribute value fairly through mutual voting.",
     textp3:
@@ -33,28 +37,28 @@ export default {
       {
         id: "0",
         title: "gov bento",
-        img: require('../assets/projects/gov-bento.png'),
+        img: require("../assets/projects/gov-bento.png"),
         text:
           "Support governance token mining of DEX and DeFi, aggregate voting power in the liquid pool, and market it to obtain more revenue"
       },
       {
         id: "2",
         title: "gov bento V2.0",
-        img: require('../assets/projects/gov-bento-V2.0.png'),
+        img: require("../assets/projects/gov-bento-V2.0.png"),
         text:
           "Introduce the MakaerDAO to help DAO and DeFi derive credit, and aggregate more governance tokens to help expand governance"
       },
       {
         id: "3",
         title: "DAS",
-        img: require('../assets/projects/das.png'),
+        img: require("../assets/projects/das.png"),
         text:
           "Achieve governance incentives through flexible supply of governance tokens similar to AMPL. DAS will be a complete set of governance structure."
       },
       {
         id: "4",
         title: "NASH Protocol",
-        img: require('../assets/projects/nash.png'),
+        img: require("../assets/projects/nash.png"),
         text: "Running complex games with hidden strategy on blockchain"
       }
     ]

@@ -2,9 +2,9 @@
  * @Author: codercao
  * @Date: 2020-09-01 21:53:49
  * @LastEditors: codercao
- * @LastEditTime: 2020-09-03 22:42:13
+ * @LastEditTime: 2020-09-11 21:13:09
  * @Description: 
- * @FilePath: \vue-win10-admine:\2020\reset-dao-web\src\views\home\components\sectionThree.vue
+ * @FilePath: \vue-win10-admine:\2020\resetdao.github.io\src\views\home\components\sectionThree.vue
 -->
 <template>
   <section class="sectionThree-warrper bg-light" id="projects">
@@ -22,7 +22,7 @@
           <div class="card card-warrper">
             <div class="card-body">
               <h2 class="card-title">{{ item.title }}</h2>
-              <img :src="item.img"/>
+              <img :src="item.img" />
               <p class="card-text">{{ item.text }}</p>
               <!-- <div class="card-more">
                 <a>{{ $t("sectionThree.btn1") }}</a
@@ -77,10 +77,10 @@ export default {
       color: #000;
     }
     img {
-      display: block;
+      // display: block;
       // background-color: #e31d33;
-      height: 148px;
-      width: 100%;
+      // height: 148px;
+      // width: 100%;
       // background-image: url("../../../assets/nash_jpg.jpg");
       background-size: cover;
       background-position: center;

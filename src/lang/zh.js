@@ -6,7 +6,7 @@ export default {
       { id: "home", title: "首页", ref: "" },
       { id: "projects", title: "项目", ref: "" },
       { id: "document", title: "文档", ref: "" },
-      { id: "community", title: "加入社区", ref: "https://t.me/ResetDAO  " },
+      { id: "community", title: "加入社区", ref: "https://t.me/ResetDAO" }
       // { id: "Web3", title: "(连接钱包)", ref: "" }
     ]
   },
@@ -20,7 +20,7 @@ export default {
   sectionTwo: {
     title: "ResetDAO 宣言",
     textp1:
-      "resetDAO 是一个社区诞生的去中心化自治组织，将为 DAOs 与 DeFi 的治理提供优化，并持续开发、协助、孵化 DAO 的产品与协议。",
+      "ResetDAO 是一个社区诞生的去中心化自治组织，将为 DAOs 与 DeFi 的治理提供优化，并持续开发、协助、孵化 DAO 的产品与协议。",
     textp2:
       "这是一个加密世界的合作社，我们拒绝中心的控制与不公平的分配，我们呼唤加密世界重新以人为本，我们拥护下放权力与收益。resetDAO 的成员将以合伙人的形式结成组织，并通过互相投票公平地分配组织产生的价值。",
     textp3:
@@ -35,28 +35,28 @@ export default {
       {
         id: "0",
         title: "治理盒饭",
-        img: require('../assets/projects/gov-bento.png'),
+        img: require("../assets/projects/gov-bento.png"),
         text:
           "聚合DEX DeFi 的治理代币挖矿，带流动池中聚合投票能力，并将其市场化获取更多收益"
       },
       {
         id: "2",
         title: "治理盒饭V2.0",
-        img: require('../assets/projects/gov-bento-V2.0.png'),
+        img: require("../assets/projects/gov-bento-V2.0.png"),
         text:
           "引入MakaerDAO机制帮助 DAO 与 DeFi 衍生信用，并聚合更多的治理代币，帮助其扩展治理"
       },
       {
         id: "3",
         title: "DAS",
-        img: require('../assets/projects/das.png'),
+        img: require("../assets/projects/das.png"),
         text:
           "帮助DAO 与 DeFi 更好的实现治理，通过类似AMPL式弹性供应治理代币，实现治理激励"
       },
       {
         id: "4",
         title: "NASH Protocol",
-        img: require('../assets/projects/nash.png'),
+        img: require("../assets/projects/nash.png"),
         text: "在区块链上运行隐藏策略下运行复杂的博弈游戏"
       }
     ]
