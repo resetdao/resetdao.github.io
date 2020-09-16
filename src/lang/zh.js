@@ -4,8 +4,8 @@ export default {
   navBar: {
     list: [
       { id: "home", title: "首页", ref: "" },
-      { id: "projects", title: "项目", ref: "" },
-      { id: "document", title: "文档", ref: "" },
+      { id: "DAO", title: "DAO", ref: "https://xdai.aragonchina.xyz/#/reset/" },
+      { id: "document", title: "文档", ref: "http://docs.resetdao.com" },
       { id: "community", title: "加入社区", ref: "https://t.me/ResetDAO" }
       // { id: "Web3", title: "(连接钱包)", ref: "" }
     ]

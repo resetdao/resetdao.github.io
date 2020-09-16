@@ -25,6 +25,7 @@
             <a
               @click="changNav(item.id)"
               class="nav-link page-scroll"
+              target="_blank"
               :class="{ active: item.id == isActive }"
               :href="item.ref"
               >{{ item.title }}</a

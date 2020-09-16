@@ -2,8 +2,8 @@ export default {
   navBar: {
     list: [
       { id: "home", title: "HOME", ref: "" },
-      { id: "projects", title: "PROJECTS", ref: "" },
-      { id: "document", title: "DOCUMENT", ref: "" },
+      { id: "DAO", title: "DAO", ref: "https://xdai.aragonchina.xyz/#/reset/" },
+      { id: "document", title: "DOCUMENT", ref: "http://docs.resetdao.com" },
       {
         id: "community",
         title: "Join Our Community",
